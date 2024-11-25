@@ -84,7 +84,7 @@ a {
       var(--brand-color-secondary) 0%,
       var(--brand-color-primary) 100%
     );
-    
+
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -93,6 +93,11 @@ a {
 
 ul[role="list"] {
   list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
 }
 
 @media (width >= 80em) {
